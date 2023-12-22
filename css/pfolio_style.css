@@ -5,12 +5,14 @@ body
     margin:0;
     background: url("bodyimg.jpg");
     background-size: cover;
-    /* height:1000px; */
+    background-repeat: no-repeat;
+    height:1000px; 
+   
    /* height:10000px;*/
     
 }
 
-#profile
+.profile
 {
     
     position:fixed;
@@ -23,28 +25,36 @@ body
     background-color:transparent;
     
 }
+.social_logo
+{
+    position:absolute;
+    right:34px;
+    top:-10px;
+}
+.social_logo li
+{
+    display:inline-block;
+    margin:5px;
+}
 
-
-
-.linkedin_logo
+.social_logo li a img
 {
     width:20px;
     height:20px;
     border-radius: 5px;
     border:3px solid grey;
     display:inline-block;
-    position:absolute;
-    right:20px;
-    top:11px;
+   
+   
 }
 
-.myphoto
+.myphoto img
 {
     width:40px;
     height:40px;
     display:inline-block;
     position:absolute;
-    left:1483px;
+    right:20px;
     top:670px;
     border-radius: 20px;
 }
@@ -88,4 +98,40 @@ body
     font-size: 22px;
     color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+.about_me
+{
+    position:absolute;
+    top:405px;
+    left:29px;
+    background-color:rgba(0,0,0,0.5);
+    padding:24px;
+    border:2px solid grey;
+    border-radius: 20px;
+   
+}
+
+.about_me h3
+{
+    font-size:27px;
+    display:inline-block;
+}
+.about_me img
+{
+    position:relative;
+    left:423px;
+    bottom:10px;
+    margin:0px;
+    display:inline-block;
+    width:60px;
+    height:60px;
+    border-radius:53px;
+}
+
+.about_me p
+{
+    font-size:20px;
+    color:white;
+    
 }
