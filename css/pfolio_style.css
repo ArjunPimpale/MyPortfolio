@@ -5,7 +5,7 @@ body
     margin:0;
     background: url("bodyimg.jpg");
     background-size: cover;
-    height:1000px;
+    /* height:1000px; */
    /* height:10000px;*/
     
 }
