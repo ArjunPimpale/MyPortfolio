@@ -6,6 +6,7 @@ body
     background: url("bodyimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+
     
     height:1500px; 
    
@@ -59,9 +60,10 @@ body
     width:350px;
     height:350px;
     display:inline-block;
+    
     position:absolute;
-    right:270px;
-    top:407px;
+    right:224px;
+    top:348px;
     border-radius: 500px;
     border:10px solid black
 }
@@ -188,7 +190,7 @@ body
     top:800px;
     border-radius: 20px;
     border:2px solid black;
-    width:1430px;
+    width:929px;
     height:248px;
     margin:0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
