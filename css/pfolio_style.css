@@ -3,6 +3,7 @@ body
     color:white;
     padding:0;
     margin:0;
+    font-size: 20px;
     background: url("bodyimg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,7 +131,7 @@ body
 .about_me img
 {
     position:relative;
-    left:349px;
+    left:463px;
     bottom:10px;
     margin:0px;
     display:inline-block;
@@ -141,7 +142,7 @@ body
 
 .about_me p
 {
-    font-size:20px;
+    font-size:25px;
   
     
 }
@@ -182,7 +183,7 @@ body
 }
 .my_skills
 {
-    padding:34px;
+    padding:62px;
     background-color:rgba(88, 66, 66, 0.5);
     display:inline-block;
     position:absolute;
@@ -206,8 +207,8 @@ body
 }
 .my_skills p
 {
-    font-size:20px;
-    margin:20px;
+    font-size:25px;
+    margin:30px;
 }
 
 .conclusion p
