@@ -56,8 +56,28 @@ body
     border-radius: 5px;
     border:3px solid grey;
     display:inline-block;
+  
    
-   
+}
+.social_logo li a :hover
+{
+    
+    animation:socialmedia 0.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    
+}
+
+@keyframes socialmedia {
+    from{
+        width:20px;
+        height:20px;
+    }
+    to{
+        width:25px;
+        height:25px;
+    }
 }
 
 .myphoto img
